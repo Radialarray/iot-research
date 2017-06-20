@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link href="jquery.fullPage.css" rel="stylesheet">
+<link href="stackedbarswith-tooltip.css" rel="stylesheet">
+<script src="jquery.min.js"></script>
+<script src="jquery.fullPage.min.js"></script>
+<script src="d3.v3.min.js"></script>
+<script src="d3-legend.min.js"></script>
+
+<body>
+  <div id="fullpage">
+
+    <div class="section">
+      <div class="wrapper">
+        <h1>Umfrage</h1>
+        <h2> Wie ist der 1. Eindruck und wie wird der Aspekt "Gestaltung" wahrgenommen?</h2>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <h1>Teilnehmer</h1>
+
+        <p> - Industrie <span class="blue">9 Teilnehmer</span></p>
+        <p class="gray-text"> Bosch, Daimler, IBM, SAP</p>
+        <p> - IoT Studenten der Hochschule Aalen <span class="blue">9 Teilnehmer</span></p>
+        <p class="gray-text"> 4. Semester</p>
+        <p> - IoT Studenten der Hochschule für Gestaltung <span class="blue">7 Teilnehmer</span></p>
+        <p class="gray-text"> 2. und 4. Semester</p>
+
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <h1>Definition des Studiengangs</h1>
+        <div id="one"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <blockquote class="quote">
+          <p> IoT steht für einen innovativen, zukunftsorientierten Studiengang der Technik und Gestaltung verbindet.</p>
+          <h4>  (HfG 2. Semester)</h4>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <h1>Was verstehen du generell unter dem Begriff IoT (Internet of Things)?</h1>
+        <div id="two"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <blockquote class="quote">
+          <p>Internet of Things steht für mich für das intelligente verknüpfen von Hardware, durch das Internet. Die daraus resultierenden Daten ermöglichen verschiedene Use Case und stellen in Idealfall einen Mehrwert für die aktiven als auch passiven Benutzer
+            der Geräte dar.</p>
+          <h4>(HS Aalen 4.Semester)</h4>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <h1>Was für Themen verbinden du mit IoT?</h1>
+        <div id="three"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <blockquote class="quote">
+          <p> ... Smart Home, Smart Energy, Connected Cars (Car to X Communication), Smart Healthcare, ...</p>
+          <h4>(HS Aalen 4.Semester)</h4>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <h1>Warum studierst du an der HfG oder in Aalen?</h1>
+        <div id="four"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <p>Wie treffend finden du den Namen des Studiengangs? "Internet der Dinge - Gestaltung vernetzter Systeme"</p>
+        <div id="five"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <blockquote class="quote">
+          <p>Da IoT oftmals unterschiedlich verstanden wird, kann es verwirrend sein. Für die, die das Thema kennen und die Weitsicht rund um das IoT verstehen, ist der Name gut getroffen.</p>
+          <h4>(SAP)</h4>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <blockquote class="quote">
+          <p>Ohne eine Erklärung hätte ich absolut nicht gewusst, wo die Schwerpunkte liegen könnten.</p>
+          <h4>(Bosch, Software Entwickler)</h4>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <blockquote class="quote">
+          <p>Aktuelle Buzzwords haben in Studiengangbezeichnungen nichts verloren</p>
+          <h4>(Bosch, Programmierer)</h4>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <h1>Was grenzt dich von einem Interaktionsgestalter ab?</h1>
+        <div id="six"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <blockquote class="quote">
+          <p>Wir versuchen eine unsichtbare Kommunikation zwischen Mensch und Maschine zu schaffen und nicht über ein Interface.</p>
+          <h4>(HfG 4. Semester)</h4>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <h1>Was unterscheidet dich von einem Softwareentwickler?</h1>
+        <div id="seven"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <blockquote class="quote">
+          <p>Ein Softwareentwickler ist mehr Spezialist für sein schmaleres Themengebiet, wir sind eher Generalisten im breiten Themengebiet IoT.</p>
+          <h4>(HS Aalen 4.Semester)</h4>
+        </blockquote>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <h1>Woher hattest du vor dem Studium relevanten Informationen her?</h1>
+        <div id="eight"></div>
+      </div>
+
+    </div>
+    <div class="section">
+      <div class="wrapper">
+        <h1>Über welche Kanäle würdest du gerne Informationen erhalten?</h1>
+        <div id="nine"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <h1>Welche Informationen würdest du dir wünschen?</h1>
+        <div id="ten"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <h1>Auf welchen Kanälen folgst du der HfG / Hochschule Aalen?</h1>
+        <div id="eleven"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <h1>Hast du die Informationen auf den Webseiten vor Studienbeginn gelesen und verstanden?</h1>
+        <div id="twelve"></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="wrapper">
+        <blockquote class="quote">
+          <p>Es ist kompliziert geschrieben und umständlich vormuliert. Daher muss man es 10 mal lesen.</p>
+          <h4>(HfG 2. Semester)</h4>
+        </blockquote>
+      </div>
+    </div>
+
+
+
+    <div class="graph"></div>
+  </div>
+
+  <script src="stackedbarswith-tooltip.js"></script>
+  <script src="two.js"></script>
+  <script src="three.js"></script>
+  <script src="four.js"></script>
+  <script src="five.js"></script>
+  <script src="six.js"></script>
+  <script src="seven.js"></script>
+  <script src="eight.js"></script>
+  <script src="nine.js"></script>
+  <script src="ten.js"></script>
+  <script src="eleven.js"></script>
+  <script src="twelve.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('#fullpage').fullpage({
+        //Navigation
+        menu: '#menu',
+        lockAnchors: false,
+        anchors: ['firstPage', 'secondPage'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: [' ','Teilnehmer', 'Definition', ' ', 'Begriff', ' ', 'Thema', ' ', 'Studienort', 'Name', ' ', ' ', ' ', 'Interaktionsgestalter', ' ', 'Softwareentwickler', ' ', 'Informationen', 'Kanäle', 'Wünsche', 'Website',
+          'Studieninformationen', ' '
+        ],
+        showActiveTooltip: true,
+        slidesNavigation: false,
+        slidesNavPosition: 'bottom',
+
+        //Scrolling
+        css3: true,
+        scrollingSpeed: 700,
+        autoScrolling: true,
+        fitToSection: true,
+        fitToSectionDelay: 700,
+        scrollBar: false,
+        easing: 'easeInOutCubic',
+        easingcss3: 'ease',
+        loopBottom: false,
+        loopTop: false,
+        loopHorizontal: true,
+        continuousVertical: false,
+        continuousHorizontal: false,
+        scrollHorizontally: false,
+        interlockedSlides: false,
+        dragAndMove: false,
+        offsetSections: false,
+        resetSliders: false,
+        fadingEffect: false,
+        normalScrollElements: '#element1, .element2',
+        scrollOverflow: false,
+        scrollOverflowReset: false,
+        scrollOverflowOptions: null,
+        touchSensitivity: 15,
+        normalScrollElementTouchThreshold: 5,
+        bigSectionsDestination: null,
+
+        //Accessibility
+        keyboardScrolling: true,
+        animateAnchor: true,
+        recordHistory: true,
+
+        //Design
+        controlArrows: true,
+        verticalCentered: true,
+        sectionsColor: [],
+        paddingTop: '3em',
+        paddingBottom: '10px',
+        fixedElements: '#header, .footer',
+        responsiveWidth: 0,
+        responsiveHeight: 0,
+        responsiveSlides: false,
+        parallax: false,
+        parallaxOptions: {
+          type: 'reveal',
+          percentage: 62,
+          property: 'translate'
+        },
+
+        //Custom selectors
+        sectionSelector: '.section',
+        slideSelector: '.slide',
+
+        lazyLoading: true,
+
+        //events
+        onLeave: function(index, nextIndex, direction) {},
+        afterLoad: function(anchorLink, index) {},
+        afterRender: function() {},
+        afterResize: function() {},
+        afterResponsive: function(isResponsive) {},
+        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {},
+        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {}
+      });
+    });
+  </script>
+</body>
