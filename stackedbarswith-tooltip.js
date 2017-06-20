@@ -140,10 +140,14 @@ bar_enter.append("text")
     svg.append("g")
             .attr("class", "legendLinear")
             .attr("transform", "translate(0,"+(height+30)+")");
-    var legend = d3.legend.color()
-            .shapeWidth(height/4)
-            .shapePadding(10)
-            .orient('horizontal')
-            .scale(color);
-    svg.select(".legendLinear")
-            .call(legend);
+            var legend = d3.legend.color()
+
+                    .shape('circle')
+                    .shapeWidth(20)
+                    .orient('horizontal')
+                    .shapePadding(60)
+
+                    .scale(color);
+            svg.select(".legendLinear")
+                    .call(legend)
+                    .attr("transform", "translate(100,"  + (height+ 60)+")");
