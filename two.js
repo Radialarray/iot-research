@@ -93,7 +93,12 @@ bar_enter.append("rect")
 .style("fill", function(d) { return color(d.name); });
 
 bar_enter.append("text")
-.text(function(d) { return d3.format(".2s")(d.y1-d.y0)+"%"; })
+.text(function(d) {
+  if(d.y1-d.y0 == 0) {
+  } else {
+    return d3.format(".2s")(d.y1-d.y0)+"%";
+  }
+})
 .attr("y", function(d) { return y(d.y1)+(y(d.y0) - y(d.y1))/2; })
 .attr("x", x.rangeBand()/3)
 .style("fill", '#ffffff');
