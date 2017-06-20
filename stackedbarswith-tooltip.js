@@ -115,8 +115,9 @@ bar_enter.append("rect")
 
 bar_enter.append("text")
     .text(function(d) { return d3.format(".2s")(d.y1-d.y0)+"%"; })
+    .attr("text-anchor", "middle")
     .attr("y", function(d) { return y(d.y1)+(y(d.y0) - y(d.y1))/2; })
-    .attr("x", x.rangeBand()/3)
+    .attr("x", x.rangeBand()/2)
     .style("fill", '#ffffff');
 
     bar
