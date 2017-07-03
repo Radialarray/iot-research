@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<link href="jquery.fullPage.css" rel="stylesheet">
-<link href="stackedbarswith-tooltip.css" rel="stylesheet">
-<script src="jquery.min.js"></script>
-<script src="jquery.fullPage.min.js"></script>
-<script src="d3.v3.min.js"></script>
-<script src="d3-legend.min.js"></script>
+<link href="css/jquery.fullPage.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<script src="assets/jquery.min.js"></script>
+<script src="assets/jquery.fullPage.min.js"></script>
+<script src="assets/d3.v3.min.js"></script>
+<script src="assets/d3-legend.min.js"></script>
 
 <body>
   <div id="fullpage">
@@ -48,7 +48,7 @@
 
     <div class="section">
       <div class="wrapper">
-        <h1>Was verstehen du generell unter dem Begriff IoT (Internet of Things)?</h1>
+        <h1>Was verstehst du generell unter dem Begriff IoT (Internet of Things)?</h1>
         <div id="two"></div>
       </div>
     </div>
@@ -201,99 +201,18 @@
     <div class="graph"></div>
   </div>
 
-  <script src="stackedbarswith-tooltip.js"></script>
-  <script src="two.js"></script>
-  <script src="three.js"></script>
-  <script src="four.js"></script>
-  <script src="five.js"></script>
-  <script src="six.js"></script>
-  <script src="seven.js"></script>
-  <script src="eight.js"></script>
-  <script src="nine.js"></script>
-  <script src="ten.js"></script>
-  <script src="eleven.js"></script>
-  <script src="twelve.js"></script>
-  <script>
-    $(document).ready(function() {
-      $('#fullpage').fullpage({
-        //Navigation
-        menu: '#menu',
-        lockAnchors: false,
-        anchors: ['firstPage', 'secondPage'],
-        navigation: true,
-        navigationPosition: 'right',
-        navigationTooltips: [' ','Teilnehmer', 'Definition', ' ', 'Begriff', ' ', 'Thema', ' ', 'Studienort', 'Name', ' ', ' ', ' ', 'Interaktionsgestalter', ' ', 'Softwareentwickler', ' ', 'Informationen', 'Kanäle', 'Wünsche', 'Website',
-          'Studieninformationen', ' '
-        ],
-        showActiveTooltip: true,
-        slidesNavigation: false,
-        slidesNavPosition: 'bottom',
-
-        //Scrolling
-        css3: true,
-        scrollingSpeed: 700,
-        autoScrolling: true,
-        fitToSection: true,
-        fitToSectionDelay: 700,
-        scrollBar: false,
-        easing: 'easeInOutCubic',
-        easingcss3: 'ease',
-        loopBottom: false,
-        loopTop: false,
-        loopHorizontal: true,
-        continuousVertical: false,
-        continuousHorizontal: false,
-        scrollHorizontally: false,
-        interlockedSlides: false,
-        dragAndMove: false,
-        offsetSections: false,
-        resetSliders: false,
-        fadingEffect: false,
-        normalScrollElements: '#element1, .element2',
-        scrollOverflow: false,
-        scrollOverflowReset: false,
-        scrollOverflowOptions: null,
-        touchSensitivity: 15,
-        normalScrollElementTouchThreshold: 5,
-        bigSectionsDestination: null,
-
-        //Accessibility
-        keyboardScrolling: true,
-        animateAnchor: true,
-        recordHistory: true,
-
-        //Design
-        controlArrows: true,
-        verticalCentered: true,
-        sectionsColor: [],
-        paddingTop: '3em',
-        paddingBottom: '10px',
-        fixedElements: '#header, .footer',
-        responsiveWidth: 0,
-        responsiveHeight: 0,
-        responsiveSlides: false,
-        parallax: false,
-        parallaxOptions: {
-          type: 'reveal',
-          percentage: 62,
-          property: 'translate'
-        },
-
-        //Custom selectors
-        sectionSelector: '.section',
-        slideSelector: '.slide',
-
-        lazyLoading: true,
-
-        //events
-        onLeave: function(index, nextIndex, direction) {},
-        afterLoad: function(anchorLink, index) {},
-        afterRender: function() {},
-        afterResize: function() {},
-        afterResponsive: function(isResponsive) {},
-        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex) {},
-        onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex) {}
-      });
-    });
-  </script>
+  <script src="legend.js"></script>
+  <script src="graphs/one.js"></script>
+  <script src="graphs/two.js"></script>
+  <script src="graphs/three.js"></script>
+  <script src="graphs/four.js"></script>
+  <script src="graphs/five.js"></script>
+  <script src="graphs/six.js"></script>
+  <script src="graphs/seven.js"></script>
+  <script src="graphs/eight.js"></script>
+  <script src="graphs/nine.js"></script>
+  <script src="graphs/ten.js"></script>
+  <script src="graphs/eleven.js"></script>
+  <script src="graphs/twelve.js"></script>
+  <script src="fullpage_init.js"></script>
 </body>
