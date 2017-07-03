@@ -1,3 +1,11 @@
+var margin = {
+  top: (parseInt(d3.select('.graph').style('height'), 10) / 20),
+  right: (parseInt(d3.select('.graph').style('width'), 10) / 20),
+  bottom: (parseInt(d3.select('.graph').style('height'), 10) / 6),
+  left: (parseInt(d3.select('.graph').style('width'), 10) / 35)
+}
+
+
 var legend = function() {
 bar_enter.append("text")
 .text(function(d) {
@@ -19,7 +27,7 @@ bar_enter.append("text")
 bar
   .on("mousemove", function(d) {
     divTooltip.style("left", d3.event.pageX + 10 + "px");
-    divTooltip.style("top", d3.event.pageY - 25 + "px");
+    divTooltip.style("top", d3.event.pageY - 15 + "px");
     divTooltip.style("display", "inline-block");
     var elements = document.querySelectorAll(':hover');
     l = elements.length

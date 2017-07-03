@@ -49,13 +49,7 @@ dataset = [{
 
 
 
-var margin = {
-    top: (parseInt(d3.select('.graph').style('height'), 10) / 20),
-    right: (parseInt(d3.select('.graph').style('width'), 10) / 20),
-    bottom: (parseInt(d3.select('.graph').style('height'), 10) / 6),
-    left: (parseInt(d3.select('.graph').style('width'), 10) / 20)
-  },
-  width = parseInt(d3.select('.graph').style('width'), 10) - margin.left - margin.right,
+var width = parseInt(d3.select('.graph').style('width'), 10) - margin.left - margin.right,
   height = parseInt(d3.select('.graph').style('height'), 10) - margin.top - margin.bottom;
 var x = d3.scale.ordinal()
   .rangeRoundBands([0, width], .1, .3);
