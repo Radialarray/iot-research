@@ -1,41 +1,53 @@
-body {
+html, body {
   font-family: "Open Sans", sans-serif;
   width: 100%;
   position: relative;
+  font-size: 62.5%;
+  line-height: normal;
 }
 
 h1 {
   color: #111;
   font-family: 'Open Sans', sans-serif;
-  font-size: 50px;
+  font-size: 6rem;
   font-weight: 300;
   letter-spacing: -1px;
   line-height: 1;
   text-align: left;
+  line-height: normal;
+
 }
 
 h2 {
   color: #5A79EC;
   font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
+  font-size: 4rem;
   font-weight: 600;
   line-height: 32px;
   text-align: left;
+  line-height: normal;
+
+}
+
+h4 {
+  font-size: 1.4rem;
+  line-height: normal;
+
 }
 
 p {
   color: #111;
   font-family: 'Open Sans', sans-serif;
-  font-size: 30px;
+  font-size: 5em;
   font-weight: 300;
-  line-height: 32px;
+  line-height: normal;
   text-align: left;
 }
 
 .gray-text {
   color: #5A79EC;
   font-family: 'Open Sans', sans-serif;
-  font-size: 20px;
+  font-size: 3.5rem;
 }
 
 .blue {
@@ -45,19 +57,21 @@ p {
 
 .wrapper {
   position: absolute;
-  top: 50%;
+  /*top: 50%;*/
   left: 50%;
   width: 80%;
-  /*height: 60%;*/
+  /*height: 100%;*/
   margin: 0px;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
 .graph {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
   width: 960px;
   height: 500px;
+  width: 80vW;
+  height: 70vH;
 }
 
 .quote {
@@ -69,6 +83,11 @@ p {
   transform: translate(-0%, -50%);
   padding-left: 1em;
   border-left: 0.2em solid #4d91b3;
+}
+
+.quote p {
+  font-size: 3.8rem;
+  line-height: normal;
 }
 
 svg {
@@ -92,7 +111,7 @@ text {
   border-radius: 8px 8px 8px 8px;
   box-shadow: -3px 3px 15px rgba(0, 0, 0, 0.2);
   color: black;
-  font: 12px sans-serif;
+  font: 1rem sans-serif;
   padding: 8px;
   text-align: left;
 }
@@ -112,7 +131,6 @@ text {
 #talkbubble {
    width: 120px;
    height: 80px;
-   background: red;
    position: relative;
    -moz-border-radius:    10px;
    -webkit-border-radius: 10px;
@@ -126,7 +144,6 @@ text {
    width: 0;
    height: 0;
    border-top: 13px solid transparent;
-   border-right: 26px solid red;
    border-bottom: 13px solid transparent;
 }
 
@@ -136,11 +153,13 @@ text {
 }
 
 text {
-  font: 10px sans-serif;
+  font: 1.4rem sans-serif;
 }
 
+
+
 .axis text {
-  font: 10px sans-serif;
+  font: 1.4rem sans-serif;
 }
 
 .axis path {
@@ -166,7 +185,7 @@ text {
 }
 .headline_p{
   color: white;
-  font-size: 20px;
+  font-size: 2.3rem;
 }
 .headline_blue{
   color: #5A79EC;
@@ -203,7 +222,7 @@ text {
 .bigbold {
   color: #5A79EC;
   font-family: 'Open Sans', sans-serif;
-  font-size: 130px;
+  font-size: 12rem;
   font-weight: bolder;
   letter-spacing: -1px;
   line-height: 1;
@@ -212,16 +231,20 @@ text {
 .fat{
   font-weight: 500;
 }
-.cardsorting{
+.cardsortingBG{
+  width: 50vW;
+  height: 80vH;
   background-image: url(../3.jpeg);
   background-position: center center;
   background-size: center;
   background-repeat: no-repeat;
 }
-.stakeholder{
+.stakeholderBG{
+  width: 80vW;
+  height: 80vH;
   background-image: url(../1.jpg);
   background-position: center center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 .barchart{

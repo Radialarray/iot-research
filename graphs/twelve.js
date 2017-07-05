@@ -35,8 +35,6 @@ dataset = [{
 
 
 
-var width = parseInt(d3.select('.graph').style('width'), 10) - margin.left - margin.right,
-  height = parseInt(d3.select('.graph').style('height'), 10) - margin.top - margin.bottom;
 var x = d3.scale.ordinal()
   .rangeRoundBands([0, width], .1, .3);
 var y = d3.scale.linear()

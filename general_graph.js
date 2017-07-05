@@ -5,6 +5,12 @@ var margin = {
   left: (parseInt(d3.select('.graph').style('width'), 10) / 35)
 }
 
+// var width = parseInt(d3.select('.graph').style('width'), 10) - margin.left - margin.right,
+//   height = parseInt(d3.select('.graph').style('height'), 10) - margin.top - margin.bottom;
+
+  var width = parseInt(d3.select('.graph').style('width'), 10) - margin.left - margin.right,
+    height = parseInt(d3.select('.graph').style('height'), 10) - margin.top - margin.bottom;
+
 
 var legend = function() {
 bar_enter.append("text")
@@ -50,10 +56,11 @@ var legend = d3.legend.color()
   .shape('circle')
   .shapeWidth(20)
   .orient('horizontal')
-  .shapePadding(60)
+  .shapePadding(100)
 
   .scale(color);
 svg.select(".legendLinear")
   .call(legend)
+  .attr("class", "test")
   .attr("transform", "translate(100," + (height + 60) + ")");
 }
