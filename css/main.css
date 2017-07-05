@@ -15,10 +15,10 @@ h1 {
 }
 
 h2 {
-  color: #111;
+  color: #5A79EC;
   font-family: 'Open Sans', sans-serif;
   font-size: 30px;
-  font-weight: 300;
+  font-weight: 600;
   line-height: 32px;
   text-align: left;
 }
@@ -33,15 +33,14 @@ p {
 }
 
 .gray-text {
-  color: #999999;
+  color: #5A79EC;
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
 }
 
 .blue {
-  color: #04119A;
+  color: #5A79EC;
   font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
 }
 
 .wrapper {
@@ -157,4 +156,123 @@ text {
 
 .x.axis path {
   display: none;
+}
+
+.start{
+  background-color: #5A79EC;
+}
+.headline{
+  color: white;
+}
+.headline_p{
+  color: white;
+  font-size: 20px;
+}
+.headline_blue{
+  color: #5A79EC;
+}
+.headline_blue_thin{
+  color: #5A79EC;
+  font-weight: lighter;
+}
+
+.thema{
+  background-image: url(../2.png);
+  background-position: center center;
+  background-size: cover;
+}
+.wrapper-oben {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 80%;
+  /*height: 60%;*/
+  margin: 0px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.wrapper-left{
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  /*height: 60%;*/
+  margin: 0px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.bigbold {
+  color: #5A79EC;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 130px;
+  font-weight: bolder;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: left;
+}
+.fat{
+  font-weight: 500;
+}
+.cardsorting{
+  background-image: url(../3.jpeg);
+  background-position: center center;
+  background-size: center;
+  background-repeat: no-repeat;
+}
+.stakeholder{
+  background-image: url(../1.jpg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.barchart{
+  background-color: red;
+  width: 800px;
+  height: 800px;
+  float: right;
+  margin-right: 10%;
+
+}
+.auswertung{
+  background-image: url(../4.png);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.flyer{
+  background-image: url(../flyer1.jpg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 600px;
+}
+.flyer2{
+  background-image: url(../flyer2.jpg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 600px;
+}
+.flyer3{
+  background-image: url(../flyer3.jpg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 600px;
+}.flyer4{
+  background-image: url(../flyer4.jpg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 600px;
+}.flyer5{
+  background-image: url(../flyer5.jpg);
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 600px;
 }
