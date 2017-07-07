@@ -279,11 +279,3 @@ text {
   width: auto;
   height: 600px;
 }
-.iot-symbol{
-  background-image: url(../iot_symbols.png);
-  background-position: center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: auto;
-  height: 600px;
-}
