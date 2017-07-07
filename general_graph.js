@@ -16,7 +16,8 @@ var legend = function() {
 bar_enter.append("text")
 .text(function(d) {
   if (d.y1 - d.y0 == 0) {} else {
-    return d3.format(".1s")(d.y1 - d.y0) + "%";
+    console.log(d3.round(d.y1 - d.y0));
+    return d3.round(d.y1 - d.y0) + "%";
   }
 })
   // Hier wird text mittig gesetzt!
@@ -26,7 +27,8 @@ bar_enter.append("text")
     return y(d.y1) + (y(d.y0) - y(d.y1)) / 2;
   })
   // Hier wird Text fett gemacht!
-  .style("font-weight", 'bold')
+  // .style("font-weight", 'bold')
+  .attr("dominant-baseline", "central")
   .attr("x", x.rangeBand() / 2)
   .style("fill", '#ffffff');
 
@@ -40,7 +42,7 @@ bar
     l = l - 1
     element = elements[l].__data__
 // Hier wird gerundet!
-    value = d3.format(".1s")(element.y1 - element.y0)
+    value = d3.round(element.y1 - element.y0)
     divTooltip.html((d.label) + "<br>" + element.name + "<br>" + value + "%");
   });
 bar

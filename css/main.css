@@ -30,7 +30,7 @@ h2 {
 }
 
 h4 {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   line-height: normal;
 
 }
@@ -149,11 +149,12 @@ text {
 
 .legend {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 60%;
+  /*font-size: 10rem;*/
 }
 
 text {
-  font: 1.4rem sans-serif;
+  font: 1.8rem sans-serif;
+  font-weight: normal;
 }
 
 
