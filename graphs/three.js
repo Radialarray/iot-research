@@ -23,36 +23,40 @@ function wrap(text, width) {
 }
 dataset = [{
     label: "Industrie",
+    "Technologien": 0,
+    "Gestaltung": 22.73,
     "Smart Home": 18.18,
     "Programmieren": 4.55,
     "Prototyping": 0,
-    "Gestaltung": 22.73,
     "Zukunft": 22.73,
-    "Keine Antwort": 0,
     "Vernetzung": 22.73,
-    "Security": 9.09
+    "Security": 9.09,
+    "Keine Antwort": 0
   },
   {
     label: "Studenten der HS Aalen",
+    "Technologien": 0,
+    "Gestaltung": 20,
     "Smart Home": 30,
     "Programmieren": 10,
     "Prototyping": 0,
-    "Gestaltung": 20,
     "Zukunft": 10,
-    "Keine Antwort": 10,
     "Vernetzung": 10,
-    "Security": 10
+    "Security": 10,
+    "Keine Antwort": 10
   },
   {
     label: "Studenten IoT HfG",
+    "Technologien": 0,
+    "Gestaltung": 11.67,
     "Smart Home": 35.29,
     "Programmieren": 17.65,
     "Prototyping": 17.65,
-    "Gestaltung": 11.67,
     "Zukunft": 11.67,
-    "Keine Antwort": 0,
     "Vernetzung": 5.88,
-    "Security": 0
+    "Security": 0,
+
+    "Keine Antwort": 0
   }
 ];
 

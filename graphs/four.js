@@ -23,8 +23,9 @@ function wrap(text, width) {
 }
 dataset = [{
     label: "Studenten HS Aalen",
+
+    "Technologie": 30,
     "Design/Gestaltung": 10,
-    "Technik": 30,
     "Keine Ahnung": 10,
     "Umentschieden": 0,
     "Familiäre Umgebung": 0,
@@ -34,8 +35,8 @@ dataset = [{
   },
   {
     label: "Studenten IoT HfG",
+    "Technologie": 8.33,
     "Design/Gestaltung": 41.67,
-    "Technik": 8.33,
     "Keine Ahnung": 16.67,
     "Umentschieden": 8.33,
     "Familiäre Umgebung": 8.33,

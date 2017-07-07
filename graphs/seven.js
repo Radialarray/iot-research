@@ -23,18 +23,20 @@ function wrap(text, width) {
 }
 dataset = [{
     label: "Studenten HS Aalen",
+
+    "Gestaltung": 14.29,
     "Gestaltung der Funktionalität": 21.43,
     "User Experience": 28.57,
     "Hardware/Software": 21.43,
-    "Gestaltung": 14.29,
     "Keine Antwort": 14.29
   },
   {
     label: "Studenten IoT HfG",
+
+    "Gestaltung": 31.25,
     "Gestaltung der Funktionalität": 37.50,
     "User Experience": 12.50,
     "Hardware/Software": 18.75,
-    "Gestaltung": 31.25,
     "Keine Antwort": 0
   }
 ];

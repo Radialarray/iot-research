@@ -23,11 +23,12 @@ function wrap(text, width) {
 }
 dataset = [{
     label: "Studenten HS Aalen",
+    "Technologie": 0,
+    "Gestaltungsanteil": 0,
     "Guide": 0,
     "Studentenmeinungen": 0,
     "Zukunftsaussichen": 14.29,
     "Keine Antwort": 28.57,
-    "Gestaltungsanteil": 0,
     "Ziele im Studium": 10,
     "Beispiele": 0,
     "Standort": 26.29,
@@ -35,11 +36,12 @@ dataset = [{
   },
   {
     label: "Studenten IoT HfG",
+    "Technologie": 0,
+    "Gestaltungsanteil": 15,
     "Guide": 10,
     "Studentenmeinungen": 15,
     "Zukunftsaussichen": 10,
     "Keine Antwort": 5,
-    "Gestaltungsanteil": 15,
     "Ziele im Studium": 10,
     "Beispiele": 20,
     "Standort": 5,
