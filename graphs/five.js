@@ -131,4 +131,4 @@ bar_enter.append("rect")
     return color(d.name);
   });
 
-  legend();
+legend();

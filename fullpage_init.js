@@ -7,7 +7,8 @@ $(document).ready(function() {
     navigation: true,
     navigationPosition: 'right',
     navigationTooltips: ['Hallo', ' ', ' ', 'Erste Annahme', ' ', ' ', 'Interviews', 'Wünsche', ' ', 'Methode', 'Methode', 'Umfrage', ' ', 'Teilnehmer', 'Auswertung', 'Definition', 'Begriff', ' ', ' ', 'Name', ' ', ' ', ' ', 'Informationen', 'Kanäle', 'Wünsche', 'Website',
-      'Studieninformationen', ' ' , 'Schlussfolgerung', 'Ausblick', ' ', 'Flyer 1' , 'Flyer 2' , 'Flyer 3' , 'Flyer 4', 'Flyer 5', 'Micropage' ],
+      'Studieninformationen', ' ', 'Schlussfolgerung', 'Ausblick', ' ', 'Flyer 1', 'Flyer 2', 'Flyer 3', 'Flyer 4', 'Flyer 5', 'Micropage'
+    ],
     showActiveTooltip: true,
     slidesNavigation: false,
     slidesNavPosition: 'bottom',

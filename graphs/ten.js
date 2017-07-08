@@ -24,12 +24,12 @@ function wrap(text, width) {
 dataset = [{
     label: "Studenten HS Aalen",
     "Technologie": 0,
-    "Gestaltungsanteil": 0,
+    "Gestaltung": 0,
     "Guide": 0,
-    "Studentenmeinungen": 0,
-    "Zukunftsaussichen": 14.29,
+    "Meinungen": 0,
+    "Aussichten": 14.29,
     "Keine Antwort": 28.57,
-    "Ziele im Studium": 10,
+    "Ziele": 10,
     "Beispiele": 0,
     "Standort": 26.29,
     "Inhalte": 21.43
@@ -37,12 +37,12 @@ dataset = [{
   {
     label: "Studenten IoT HfG",
     "Technologie": 0,
-    "Gestaltungsanteil": 15,
+    "Gestaltung": 15,
     "Guide": 10,
-    "Studentenmeinungen": 15,
-    "Zukunftsaussichen": 10,
+    "Meinungen": 15,
+    "Aussichten": 10,
     "Keine Antwort": 5,
-    "Ziele im Studium": 10,
+    "Ziele": 10,
     "Beispiele": 20,
     "Standort": 5,
     "Inhalte": 10
@@ -134,4 +134,4 @@ bar_enter.append("rect")
     return color(d.name);
   });
 
-  legend();
+legend();

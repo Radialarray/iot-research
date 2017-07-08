@@ -15,7 +15,6 @@ h1 {
   line-height: 1;
   text-align: left;
   line-height: normal;
-
 }
 
 h2 {
@@ -26,13 +25,11 @@ h2 {
   line-height: 32px;
   text-align: left;
   line-height: normal;
-
 }
 
 h4 {
   font-size: 1.8rem;
   line-height: normal;
-
 }
 
 p {
@@ -117,34 +114,35 @@ text {
 }
 
 .toolTip:before {
-   content:"";
-   position: absolute;
-   right: 100%;
-   top: 8px;
-   width: 0;
-   height: 0;
-   border-top: 5px solid transparent;
-   border-right: 8px solid white;
-   border-bottom: 5px solid transparent;
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 8px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-right: 8px solid white;
+  border-bottom: 5px solid transparent;
 }
 
 #talkbubble {
-   width: 120px;
-   height: 80px;
-   position: relative;
-   -moz-border-radius:    10px;
-   -webkit-border-radius: 10px;
-   border-radius:         10px;
+  width: 120px;
+  height: 80px;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
 }
+
 #talkbubble:before {
-   content:"";
-   position: absolute;
-   right: 100%;
-   top: 26px;
-   width: 0;
-   height: 0;
-   border-top: 13px solid transparent;
-   border-bottom: 13px solid transparent;
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  border-top: 13px solid transparent;
+  border-bottom: 13px solid transparent;
 }
 
 .legend {
@@ -156,8 +154,6 @@ text {
   font: 1.8rem sans-serif;
   font-weight: normal;
 }
-
-
 
 .axis text {
   font: 1.4rem sans-serif;
@@ -178,29 +174,34 @@ text {
   display: none;
 }
 
-.start{
+.start {
   background-color: #5A79EC;
 }
-.headline{
+
+.headline {
   color: white;
 }
-.headline_p{
+
+.headline_p {
   color: white;
   font-size: 2.3rem;
 }
-.headline_blue{
+
+.headline_blue {
   color: #5A79EC;
 }
-.headline_blue_thin{
+
+.headline_blue_thin {
   color: #5A79EC;
   font-weight: lighter;
 }
 
-.thema{
+.thema {
   background-image: url(../2.png);
   background-position: center center;
   background-size: cover;
 }
+
 .wrapper-oben {
   position: absolute;
   top: 20%;
@@ -211,7 +212,8 @@ text {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-.wrapper-left{
+
+.wrapper-left {
   position: absolute;
   top: 20%;
   left: 5%;
@@ -220,6 +222,7 @@ text {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
 .bigbold {
   color: #5A79EC;
   font-family: 'Open Sans', sans-serif;
@@ -229,10 +232,12 @@ text {
   line-height: 1;
   text-align: left;
 }
-.fat{
+
+.fat {
   font-weight: 500;
 }
-.cardsortingBG{
+
+.cardsortingBG {
   width: 50vW;
   height: 80vH;
   background-image: url(../3.jpeg);
@@ -240,7 +245,8 @@ text {
   background-size: center;
   background-repeat: no-repeat;
 }
-.stakeholderBG{
+
+.stakeholderBG {
   width: 80vW;
   height: 80vH;
   background-image: url(../1.jpg);
@@ -248,22 +254,23 @@ text {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.barchart{
+
+.barchart {
   background-color: red;
   width: 800px;
   height: 800px;
   float: right;
   margin-right: 10%;
-
 }
-.auswertung{
+
+.auswertung {
   background-image: url(../4.png);
   background-position: center center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.flyer2{
+.flyer2 {
   background-image: url(../flyer2.jpg);
   background-position: center center;
   background-size: contain;
@@ -271,7 +278,8 @@ text {
   width: auto;
   height: 600px;
 }
-.flyer4{
+
+.flyer4 {
   background-image: url(../flyer4.jpg);
   background-position: center center;
   background-size: contain;
